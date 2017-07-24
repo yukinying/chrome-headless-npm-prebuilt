@@ -1,0 +1,25 @@
+{
+  "name": "chrome-headless-prebuilt-nightly",
+  "version": "0.0.0-a",
+  "description": "JS to spawn Chrome Headless Shell",
+  "main": "./headless.js",
+  "bin": {
+    "headless": "./bin.js"
+  },
+  "scripts": {
+    "install": "node install.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "contributors": [
+    {
+      "name": "Albert Yu",
+      "email": "yukinying@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.81.0",
+    "tar.gz": "1.0.2"
+  }
+}
